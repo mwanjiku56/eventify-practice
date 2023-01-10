@@ -1,0 +1,23 @@
+.my-5{
+  margin-top: 3px;
+  padding-top: 3px;
+
+}
+
+footer {
+  background-color: #f4f7fa;
+  }
+
+section{
+  background-color: darkcyan;
+}
+
+hr {
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px
+}
+
+.p-3{
+  background-color: darkcyan;
+}
