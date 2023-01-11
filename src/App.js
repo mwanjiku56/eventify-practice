@@ -5,7 +5,7 @@ import Category from "./components/Category";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Home from "./components/Home";
-import Myfooter from "./components/Myfooter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/signup" element={<Signup />} exact />
           <Route path="/login" element={<Login />} exact />
         </Routes>
-        <Myfooter />
+        <Footer />
       </Router>
     </>
   );
