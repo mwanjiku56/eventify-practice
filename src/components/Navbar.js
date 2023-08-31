@@ -12,13 +12,16 @@ const [State, setState] = useState(false)
     return(
         <>
         <nav>
-            <h1 className="logo">Eventify</h1>
+        <Link to="/" style={{ color: "#3aeaca", textDecoration: "none" }}>
+          <h1>Eventinfo</h1>
+        </Link>
         <div>
             <ul className={State ? "nav-links-mobile" : "nav-links"} onClick={() => setState(false)}>
-                <Link to='/'><li>HOME</li></Link>
-                <Link to='/categories'><li>CATEGORIES</li></Link>
-                <Link to='/signup'><li>SIGNUP</li></Link>
-                <Link to='/login'><li>LOGIN</li></Link>
+                <Link to='/' style={{ textDecoration: "none" }}><li>HOME</li></Link>
+                <Link to='/categories' style={{ textDecoration: "none" }}><li>CATEGORIES</li></Link>
+                <Link to='/Service' style={{ textDecoration: "none" }}><li>SERVICES</li></Link>
+                <Link to='/signup' style={{ textDecoration: "none" }}><li>SIGNUP</li></Link>
+                <Link to='/login'style={{ textDecoration: "none" }} ><li>LOGIN</li></Link>
             </ul>
             
             <button className="mobile-menu-icon" onClick={() => setState(!State)}>

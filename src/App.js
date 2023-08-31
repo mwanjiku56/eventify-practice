@@ -6,6 +6,7 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Service from "./components/Service";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/categories" element={<Category />} exact />
+          <Route path="/Service" element={<Service />} exact />
           <Route path="/signup" element={<Signup />} exact />
           <Route path="/login" element={<Login />} exact />
         </Routes>
